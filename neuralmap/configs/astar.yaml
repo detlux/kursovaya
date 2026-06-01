@@ -1,0 +1,9 @@
+# Centralized A* — reference baseline, no training needed
+algo: astar
+grid_width: 8
+grid_height: 8
+num_agents: 3
+max_steps: 50
+view_radius: 3
+collision_penalty: 0.5
+max_expansions: 20000

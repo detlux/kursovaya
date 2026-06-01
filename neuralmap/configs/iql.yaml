@@ -1,0 +1,31 @@
+# IQL training config (one independent Q-network per agent)
+# Extended training budget vs DQN to test if more time closes the gap.
+seed: 0
+algo: iql
+
+grid_width: 8
+grid_height: 8
+num_agents: 3
+max_steps: 50
+view_radius: 3
+collision_penalty: 0.5
+coverage_bonus: 0.5
+success_bonus: 50.0
+step_penalty: 0.1
+
+hidden_units: 128
+
+lr: 0.0003
+gamma: 0.95
+batch_size: 64
+buffer_size: 50000
+target_update: 1000
+grad_clip: 10.0
+
+eps_start: 1.0
+eps_end: 0.05
+eps_steps: 35000
+
+episodes: 3500
+
+out_dir: results/iql

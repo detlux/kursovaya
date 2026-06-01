@@ -1,0 +1,4 @@
+planner,success_rate,ci_lo,ci_hi,avg_episode_length,mean_decision_ms,median_decision_ms
+A*,1.000,0.929,1.000,6.00,27.322,0.002
+DQN,0.680,0.542,0.792,20.96,0.261,0.235
+IQL,0.260,0.159,0.396,39.52,0.262,0.237
